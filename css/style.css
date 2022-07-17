@@ -87,3 +87,13 @@ body {
     align-items: center;
 }
 
+@media only screen and (max-width: 367px) {
+    .container {
+        width: 308px;
+        padding: 28px 23px;
+    }
+
+    .container .search-box .search-input {
+        width: 208px;
+    }
+}
