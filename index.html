@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/bdda2a1fe6.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <input class="search-input" type="text" name="search-input" id="search-input" placeholder="Enter city name">
+            <button class="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="weather-temp">
+            <h2 class="city-name"></h2>
+            <p><span class="temp"></span><sup>&#x26AC;</sup></p>
+            <p class="weather-description"></p>
+            
+        </div>
+        <div class="weather-info">
+            <div class="details">
+                <!-- 
+                    Humidity : %
+                    Description : 
+                    Wind Speed : meter/sec
+                    Visibility /= 1000
+                -->
+                <p class="humidity"></p>
+                <p class="wind-speed"></p>
+                <p class="visibility"></p>
+            </div>
+            <div class="weather-icon">
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" class="icon" alt="Weather icon">
+            </div>
+        </div>
+    </div>
+    <div class="test"></div>
+</body>
+</html>
