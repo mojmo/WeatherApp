@@ -15,7 +15,7 @@ const settings = {
     "method": "GET",
     "headers": {
         "X-RapidAPI-Host": "community-open-weather-map.p.rapidapi.com",
-        "X-RapidAPI-Key": "e8d5694c29msh0b7491831ea308ap16edf1jsn3f54c881a736",
+        "X-RapidAPI-Key": "a2a5cb1cccmsh88cd62d1ed8b204p1ff3f0jsn2e184c845a9b",
         "Access-Control-Allow-Origin": "*"
     }
 };
