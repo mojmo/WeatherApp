@@ -13,7 +13,7 @@ const elements = {
 const openWeatherSettings = {
     async: true,
     crossDomain: true,
-    baseApiUrl: "http://api.openweathermap.org/data/2.5/weather",
+    baseApiUrl: "https://api.openweathermap.org/data/2.5/weather",
     apiKey: "7174c66a24f42690c9f089cd53652286",
     units: "metric",
 };
